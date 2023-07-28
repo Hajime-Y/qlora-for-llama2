@@ -9,6 +9,10 @@ This repo supports the paper "QLoRA: Efficient Finetuning of Quantized LLMs", an
 
 QLoRA uses [bitsandbytes](https://github.com/TimDettmers/bitsandbytes) for quantization and is integrated with Hugging Face's [PEFT](https://github.com/huggingface/peft) and [transformers](https://github.com/huggingface/transformers/) libraries. QLoRA was developed by members of the [University of Washington's UW NLP group](https://twitter.com/uwnlp?s=20).
 
+## LLaMA2用の変更点(参照)
+- [llama2のファインチューニング(QLORA)のメモ](https://note.com/kan_hatakeyama/n/n5941dd9d3af4)
+- [llama2 13B LoRA](https://zenn.dev/if001/scraps/145a41a09eea21)
+
 ## Updates
 - 7/19/2023 - Added LLaMA 2 example script and updated version requirements
 - 7/18/2023 - Fixed non-frozen embeddings when adding new tokens
