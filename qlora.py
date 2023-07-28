@@ -704,6 +704,7 @@ def train():
     model, tokenizer = get_accelerate_model(args, checkpoint_dir)
 
     model.config.use_cache = False
+    model.config.pretraining_tp = 1 #追加!
     print('loaded model')
     set_seed(args.seed)
 
